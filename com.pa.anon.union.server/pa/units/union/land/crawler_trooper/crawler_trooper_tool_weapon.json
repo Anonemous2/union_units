@@ -1,0 +1,1 @@
+{"base_spec":"/pa/tools/base_bot_weapon/base_bot_weapon.json","ammo_id":[{"layer":"WL_AnyLand","id":"/pa/units/union/land/crawler_trooper/crawler_trooper_weapon_ammo.json"}],"rate_of_fire":4,"idle_aim_delay":0.2,"max_range":75,"yaw_rate":360,"pitch_rate":360,"yaw_range":180,"pitch_range":20,"auto_attack":true,"target_layers":["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"]}
