@@ -2,7 +2,7 @@
     "display_name":"Monitor",
     "description":"!LOC:Aquadic Crawler - NEEDEEEEE.",
     "max_health":600,
-    "build_metal_cost":700,
+    "build_metal_cost":500,
     "attachable":{
         "offsets":{
             "root":[0,0,0],
@@ -89,7 +89,7 @@
                 "near_distance":1.0,
                 "far_distance":10.0,
                 "color":[1.0,1.0,1.0],
-                "intensity":3.0,
+                "intensity":1.0,
                 "bone":"bone_turret",
                 "shadow_resolution":128}],
         "lamps":[
