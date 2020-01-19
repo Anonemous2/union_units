@@ -1,0 +1,34 @@
+{"base_spec":"/pa/units/union/commanders/formidable/base_formidable.json",
+    "display_name":"Formidable Commander",
+    "description":"Union 2nd Commander",
+    "attachable":
+    {"offsets":
+        {"root":[0,0,0],
+        "head":[0,0.8,12]}},
+"model":
+    {"filename":"/pa/units/union/commanders/formidable/formidable.papa"},
+    "headlights":[],
+    "lamps":[],
+    "mesh_bounds":[11.0,8.71255,13.0],
+    "catalog_object_name":"QuadOsiris",
+"client":
+{"ui":
+    {"image":"/ui/main/shared/img/commanders/img_quad_osiris.png",
+        "thumb_image":"/ui/main/shared/img/commanders/thumbs/img_quad_osiris_thumb.png",
+        "profile_image":"/ui/main/shared/img/commanders/profiles/profile_quad_osiris.png"},
+    "tools":[{"spec_id":"/pa/tools/commander_build_arm/commander_build_arm.json",
+        "aim_bone":"bone_turret"},
+            {"spec_id":"/pa/units/commanders/base_commander/base_commander_tool_bullet_weapon.json",
+                "aim_bone":"bone_turret",
+                "muzzle_bone":["socket_right_upper","socket_right_lower"],
+                "primary_weapon":true},
+            {"spec_id":"/pa/tools/uber_cannon/uber_cannon.json",
+                "aim_bone":"bone_turret",
+                "muzzle_bone":["socket_right_upper","socket_right_lower"],
+                "secondary_weapon":true},
+            {"spec_id":"/pa/units/commanders/base_commander/base_commander_tool_aa_weapon.json",
+                "aim_bone":"bone_turret",
+                "muzzle_bone":["socket_right_upper","socket_right_lower"],"primary_weapon":false,"show_range":false},
+            {"spec_id":"/pa/units/commanders/base_commander/base_commander_tool_torpedo_weapon.json",
+                "aim_bone":"bone_turret","muzzle_bone":["socket_right_upper","socket_right_lower"],"primary_weapon":false,"show_range":false}]
+                ,"fx_offsets":[{"type":"build","filename":"/pa/effects/specs/fab_spray.pfx","bone":"socket_left"}]}}
